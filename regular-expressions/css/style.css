@@ -1,0 +1,44 @@
+body {
+  background-image: url('https://p4.wallpaperbetter.com/wallpaper/275/14/475/purple-pink-blue-blur-wallpaper-preview.jpg');
+  background-size: cover; /* Mengatur gambar agar mengisi seluruh area latar belakang */
+  background-position: center; /* Menengahkan gambar latar belakang */
+}
+
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.indicator {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+}
+

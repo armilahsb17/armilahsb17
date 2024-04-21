@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Real-time Input Validation</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<form>
+  <h2>Email(example@gamil.com)</h2>
+  <input type="text" id="emailInput" placeholder="Masukkan Email">
+  <span id="emailIndicator" class="indicator"></span>
+
+  <h2>Username(huruf dan angka)</h2>
+  <input type="username" id="usernameInput" placeholder="Masukkan Username">
+  <span id="usernameIndicator" class="indicator"></span>
+
+  <h2>Nomor Telepon(+6287598402)</h2>
+  <input type="text" id="phoneInput" placeholder="Masukkan Nomor Telepon">
+  <span id="phoneIndicator" class="indicator"></span>
+
+  <h2>Tanggal (YYYY-MM-DD)</h2>
+  <input type="text" id="dateInput" placeholder="Masukkan Tanggal (YYYY-MM-DD)">
+  <span id="dateIndicator" class="indicator"></span>
+
+  <h2>URL(http://example.com)</h2>
+  <input type="text" id="urlInput" placeholder="Masukkan URL">
+  <span id="urlIndicator" class="indicator"></span>
+</form>
+
+<script src="./js/validation.js"></script>
+
+</body>
+</html>
